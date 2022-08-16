@@ -1,2 +1,7 @@
 GET http://localhost/rest_api_php/api/post/read.php  HTTP/1.1
 
+###
+
+GET http://localhost/rest_api_php/api/post/read_single.php?id=1  HTTP/1.1
+
+
