@@ -4,4 +4,15 @@ GET http://localhost/rest_api_php/api/post/read.php  HTTP/1.1
 
 GET http://localhost/rest_api_php/api/post/read_single.php?id=1  HTTP/1.1
 
+###
+
+POST http://localhost/rest_api_php/api/post/create.php  HTTP/1.1
+Content-Type: application/json
+
+{
+	"title": "my tech post",
+	"body": "sample post",
+	"author": "kevin",
+	"category_id": "1"
+}
 
