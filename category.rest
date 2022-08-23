@@ -1,0 +1,2 @@
+###
+GET http://localhost/rest_api_php/api/category/read.php  HTTP/1.1

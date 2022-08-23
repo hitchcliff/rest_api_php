@@ -3,7 +3,6 @@ class Post
 {
   // db stuff
   private $conn;
-  private $table = 'posts';
 
   // post properties
   public $id;
@@ -86,8 +85,7 @@ class Post
 
   public function create()
   {
-    $query = '
-    INSERT INTO posts 
+    $query = 'INSERT INTO posts 
     SET 
       title = :title,
       body = :body,
@@ -166,8 +164,7 @@ class Post
 
   public function delete()
   {
-    $query = '
-    DELETE FROM posts 
+    $query = 'DELETE FROM posts 
     WHERE
       id = :id;
     ';
